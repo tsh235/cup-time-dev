@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cup Time - корзина товаров</title>
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
   <header class="header">
@@ -36,97 +38,97 @@
   <main>
     <h1 class="visually-hidden">Корзина товаров</h1>
     <section class="cart">
-      <div class="container">
-        <h2 class="cart__title h2">Корзина (6)</h2>
-
-        <ul class="cart__list">
-          <li class="cart__item">
-            <article class="cart__product card">
-              <img class="cart__product-img" src="./img/photo-2.jpg" alt="Кокосовая матча">
-              <div class="cart__product-content">
-                <h3 class="cart__product-title">Кокосовая матча</h3>
-                <div class="cart__product-quantity quantity">
-                  <button class="quantity__btn quantity__btn_minus" type="button">-</button>
-                  <span class="quantity__text">1</span>
-                  <button class="quantity__btn quantity__btn_plus" type="button">+</button>
+      <div class="container cart__container">
+        <div class="cart__wrapper">
+          <h2 class="cart__title h2">Корзина (6)</h2>
+  
+          <ul class="cart__list">
+            <li class="cart__item">
+              <article class="cart__product card">
+                <img class="cart__product-img" src="./img/photo-2.jpg" alt="Кокосовая матча">
+                <div class="cart__product-content">
+                  <h3 class="cart__product-title">Кокосовая матча</h3>
+                  <div class="cart__product-quantity quantity">
+                    <button class="quantity__btn quantity__btn_minus" type="button">-</button>
+                    <input class="quantity__input" type="number" value="1">
+                    <button class="quantity__btn quantity__btn_plus" type="button">+</button>
+                  </div>
+                  <p class="cart__product-price">390 ₽</p>
                 </div>
-                <p class="cart__product-price">390 ₽</p>
-              </div>
-            </article>
-          </li>
-
-          <li class="cart__item">
-            <article class="cart__product card">
-              <img class="cart__product-img" src="./img/photo-1.jpg" alt="Зеленый индо...">
-              <div class="cart__product-content">
-                <h3 class="cart__product-title">Зеленый индо...</h3>
-                <div class="cart__product-quantity quantity">
-                  <button class="quantity__btn quantity__btn_minus" type="button">-</button>
-                  <span class="quantity__text">2</span>
-                  <button class="quantity__btn quantity__btn_plus" type="button">+</button>
+              </article>
+            </li>
+  
+            <li class="cart__item">
+              <article class="cart__product card">
+                <img class="cart__product-img" src="./img/photo-1.jpg" alt="Зеленый индо...">
+                <div class="cart__product-content">
+                  <h3 class="cart__product-title">Зеленый индо...</h3>
+                  <div class="cart__product-quantity quantity">
+                    <button class="quantity__btn quantity__btn_minus" type="button">-</button>
+                    <input class="quantity__input" type="number" value="2">
+                    <button class="quantity__btn quantity__btn_plus" type="button">+</button>
+                  </div>
+                  <p class="cart__product-price">680 ₽</p>
                 </div>
-                <p class="cart__product-price">680 ₽</p>
-              </div>
-            </article>
-          </li>
-
-          <li class="cart__item">
-            <article class="cart__product">
-              <img class="cart__product-img" src="./img/photo.jpg" alt="Черный чай из...">
-              <div class="cart__product-content">
-                <h3 class="cart__product-title">Черный чай из...</h3>
-                <div class="cart__product-quantity quantity">
-                  <button class="quantity__btn quantity__btn_minus" type="button">-</button>
-                  <span class="quantity__text">1</span>
-                  <button class="quantity__btn quantity__btn_plus" type="button">+</button>
+              </article>
+            </li>
+  
+            <li class="cart__item">
+              <article class="cart__product">
+                <img class="cart__product-img" src="./img/photo.jpg" alt="Черный чай из...">
+                <div class="cart__product-content">
+                  <h3 class="cart__product-title">Черный чай из...</h3>
+                  <div class="cart__product-quantity quantity">
+                    <button class="quantity__btn quantity__btn_minus" type="button">-</button>
+                    <input class="quantity__input" type="number" value="1">
+                    <button class="quantity__btn quantity__btn_plus" type="button">+</button>
+                  </div>
+                  <p class="cart__product-price">380 ₽</p>
                 </div>
-                <p class="cart__product-price">380 ₽</p>
-              </div>
-            </article>
-          </li>
-
-          <li class="cart__item">
-            <article class="cart__product">
-              <img class="cart__product-img" src="./img/photo-3.jpg" alt="Чай черный Ла...">
-              <div class="cart__product-content">
-                <h3 class="cart__product-title">Чай черный Ла...</h3>
-                <div class="cart__product-quantity quantity">
-                  <button class="quantity__btn quantity__btn_minus" type="button">-</button>
-                  <span class="quantity__text">1</span>
-                  <button class="quantity__btn quantity__btn_plus" type="button">+</button>
+              </article>
+            </li>
+  
+            <li class="cart__item">
+              <article class="cart__product">
+                <img class="cart__product-img" src="./img/photo-3.jpg" alt="Чай черный Ла...">
+                <div class="cart__product-content">
+                  <h3 class="cart__product-title">Чай черный Ла...</h3>
+                  <div class="cart__product-quantity quantity">
+                    <button class="quantity__btn quantity__btn_minus" type="button">-</button>
+                    <input class="quantity__input" type="number" value="1">
+                    <button class="quantity__btn quantity__btn_plus" type="button">+</button>
+                  </div>
+                  <p class="cart__product-price">390 ₽</p>
                 </div>
-                <p class="cart__product-price">390 ₽</p>
-              </div>
-            </article>
-          </li>
-        </ul>
-
+              </article>
+            </li>
+          </ul>
+        </div>
+        
         <div class="cart__info">
           <p class="cart__total-text">Итого:</p>
           <p class="cart__total-price">2200 ₽</p>
-
+    
           <button class="cart__submit" form="order">Заказать</button>
         </div>
-      </div>
-    </section>
 
-    <section class="order">
-      <div class="container">
-        <h2 class="order__title h2">Доставка</h2>
-
-        <form id="order" class="order__form">
-          <fieldset class="order__inputs">
-            <input class="order__input" type="text" name="name" placeholder="Имя" required>
-            <input class="order__input" type="text" name="phone" placeholder="Телефон" required>
-            <input class="order__input" type="text" name="address" placeholder="Адрес" required>
-          </fieldset>
-
-          <fieldset class="order__payments">
-            <legend class="order__legend">Оплата:</legend>
-            <label class="order__label"><input class="order__radio" type="radio" name="payment">Картой</label>
-            <label class="order__label"><input class="order__radio" type="radio" name="payment" checked>Наличные</label>
-          </fieldset>
-        </form>
+        <div class="cart__order order">
+          <h2 class="order__title h2">Доставка</h2>
+  
+          <form id="order" class="order__form">
+            <fieldset class="order__inputs">
+              <input class="order__input" type="text" name="name" placeholder="Имя" required>
+              <input class="order__input" type="text" name="phone" placeholder="Телефон" required>
+              <input class="order__input order__input_address" type="text" name="address" placeholder="Адрес" required>
+            </fieldset>
+  
+            <fieldset class="order__payments">
+              <legend class="order__legend">Оплата:</legend>
+              <label class="order__label"><input class="order__radio" type="radio" name="payment">Картой</label>
+              <label class="order__label"><input class="order__radio" type="radio" name="payment" checked>Наличными</label>
+            </fieldset>
+          </form>
+        </div>
       </div>
     </section>
   </main>
